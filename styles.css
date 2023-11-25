@@ -1,0 +1,94 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+
+#header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(ima1.png);
+    background-size: cover;
+    background-color: #080606;
+    width: 100%;
+    height: 100vh;
+
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+.about-col-2 img{
+   
+  
+    float: right;
+    width: 300px;
+    margin-right: 1%;
+    margin-top: 5%;
+}
+
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+.about-col-1 img{
+   
+  
+    float: right;
+    width: 550px;
+    margin-right: 1%;
+    margin-top: 7%;
+}
+.about-col-3 img{
+   
+  
+    float: right;
+    width: 250px;
+    margin-right: 2%;
+    margin-top: 5%;
+    
+}
+
+
+
+
+
+.nav-link:hover {
+    color: #ffd700; /* Change to your preferred hover color */
+}
+
+.section {
+    padding: 50px;
+}
+
+
+/* Add more styles as needed */
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    
+    bottom: 0;
+    width: 100%;
+}
